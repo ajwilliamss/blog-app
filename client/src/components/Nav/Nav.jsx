@@ -55,11 +55,13 @@ const Nav = () => {
             />
           </Link>
         ) : (
-          <img
-            src={userPlaceholder}
-            alt="user profile"
-            className="nav-user-img"
-          />
+          <Link to="/login">
+            <img
+              src={userPlaceholder}
+              alt="user profile"
+              className="nav-user-img"
+            />
+          </Link>
         )}
       </nav>
       <MobileNav handleLogout={handleLogout} />
