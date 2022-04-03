@@ -53,7 +53,11 @@ const MobileNav = ({ handleLogout }) => {
             </Link>
           </li>
           <li className="mobile-nav-item">
-            <Link to="/user">{user ? "Account" : "Register"}</Link>
+            {user ? (
+              <Link to="/user">Account</Link>
+            ) : (
+              <Link to="/register">Register</Link>
+            )}
           </li>
         </ul>
       )}
