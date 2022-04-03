@@ -1,0 +1,77 @@
+.create-post {
+  margin-top: 100px;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.create-form input,
+.create-form textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.create-form select {
+  width: 175px;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+
+.create-form input,
+.create-form textarea,
+.create-form button {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.create-form input:nth-child(2) {
+  margin-top: 1rem;
+}
+
+.create-form input:nth-child(3) {
+  font-size: 2rem;
+}
+
+.create-form textarea {
+  resize: none;
+  height: 50vh;
+}
+
+.create-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.create-btn button {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0.75rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  transition: 0.25s ease-in;
+}
+
+.create-btn:hover {
+  opacity: 0.8;
+}
+
+.create-image-preview {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.create-error {
+  color: tomato;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}

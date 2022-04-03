@@ -1,0 +1,31 @@
+.home {
+  margin-top: 75px;
+}
+
+.home-wrapper {
+  display: flex;
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.load-more-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.load-more-btn button {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0.75rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  transition: 0.25s ease-in;
+  font-size: 1.25rem;
+  margin: 2rem 0;
+}
+
+.load-more-btn button:hover {
+  opacity: 0.8;
+}

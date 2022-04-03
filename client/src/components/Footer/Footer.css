@@ -1,0 +1,39 @@
+.footer {
+  background-color: lightgrey;
+}
+
+.footer-wrapper {
+  max-width: 1500px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+.footer li {
+  margin-top: 0.5rem;
+}
+
+.footer-nav-items a:hover {
+  opacity: 0.8;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 575px) {
+  .footer {
+    text-align: center;
+  }
+  .footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

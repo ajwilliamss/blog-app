@@ -1,0 +1,124 @@
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.user-account h4 {
+  margin-bottom: 1rem;
+}
+
+.user-account {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-form label {
+  margin-bottom: 0.25rem;
+  font-size: 1.15rem;
+  margin-right: auto;
+}
+
+.user-form input {
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  outline: none;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  padding: 0.25rem;
+}
+
+.user-form input:nth-child(3) {
+  border: none;
+}
+
+.user-profile-img {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.del {
+  color: tomato;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.user-btn {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0.75rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  transition: 0.25s ease-in;
+  font-size: 1.25rem;
+}
+
+.user-btn:hover {
+  opacity: 0.8;
+}
+
+.user-btn:disabled {
+  cursor: not-allowed;
+}
+
+.user-form input,
+.user-form p {
+  width: 400px;
+}
+
+.user-form p {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 620px) {
+  .user-account {
+    text-align: center;
+  }
+
+  .user-profile-img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .user-form input {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .user-profile-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .user-form input {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .user-profile-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .user-form input {
+    width: 250px;
+  }
+}

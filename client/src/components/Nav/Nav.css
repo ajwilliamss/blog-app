@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  background-color: var(--white);
+  z-index: 999;
+}
+
+.logo span {
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-items,
+.nav-user-items {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.nav-items a,
+.logo a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.nav-items a:hover {
+  opacity: 0.8;
+}
+
+.nav-user-img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+}

@@ -1,0 +1,40 @@
+.about-page {
+  display: flex;
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.about-section {
+  flex: 75%;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-section h2 {
+  margin-left: 2rem;
+}
+
+.about-section h4,
+.about-section p {
+  margin: 2rem;
+}
+
+@media screen and (max-width: 750px) {
+  .about-section {
+    flex: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .about-section {
+    flex: 100%;
+    margin-left: 0;
+  }
+  .about-section h2 {
+    font-size: 2rem;
+  }
+}

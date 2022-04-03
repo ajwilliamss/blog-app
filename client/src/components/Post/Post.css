@@ -1,0 +1,52 @@
+.single-post {
+  flex: 75%;
+  margin: 1rem 2rem 0 2rem;
+}
+
+.single-post-img {
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.single-post-title {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.single-post-btns {
+  float: right;
+}
+
+.single-post-icon {
+  cursor: pointer;
+}
+
+.single-post-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.single-post-info span {
+  margin: 0.35rem 0;
+}
+
+.single-post-item {
+  font-weight: bold;
+}
+
+.single-post-info a:hover {
+  opacity: 0.8;
+}
+
+.single-post-desc {
+  margin-top: 1rem;
+  white-space: pre-wrap;
+}
+
+@media screen and (max-width: 815px) {
+  .single-post-title {
+    font-size: 2rem;
+  }
+}
