@@ -12,6 +12,8 @@ Lastly, posts can be filtered by category or author. The user can click on the a
 
 # View the site here:
 
+https://ajmernblog.herokuapp.com/
+
 # How to use the application:
 
 - Upon loading the application, you can view the posts or log in/register an account.
